@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/workit-landing-page/static/css/main.d0a6a119.css",
+    "main.js": "/workit-landing-page/static/js/main.a997a463.js",
+    "static/js/787.fa23ba97.chunk.js": "/workit-landing-page/static/js/787.fa23ba97.chunk.js",
+    "static/media/image-hero.webp": "/workit-landing-page/static/media/image-hero.a7670418285473b2adf5.webp",
+    "index.html": "/workit-landing-page/index.html",
+    "main.d0a6a119.css.map": "/workit-landing-page/static/css/main.d0a6a119.css.map",
+    "main.a997a463.js.map": "/workit-landing-page/static/js/main.a997a463.js.map",
+    "787.fa23ba97.chunk.js.map": "/workit-landing-page/static/js/787.fa23ba97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0a6a119.css",
+    "static/js/main.a997a463.js"
+  ]
+}
