@@ -1,0 +1,45 @@
+/* Colors */
+:root {
+  --dark-purple: #24053e;
+  --eucalyptus: #44ffa1;
+  --davys-gray: #584d62;
+  --ghost-white: #fcf8ff;
+  --white: #ffffff;
+}
+
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Manrope:wght@400&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fraunces", serif;
+  font-weight: 600;
+}
+
+.heading-l {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.heading-m {
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.heading-s {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.body {
+  font-size: 18px;
+  line-height: 32px;
+}

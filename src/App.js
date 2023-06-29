@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import ApplyInfo from "./components/apply-info/ApplyInfo";
+import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
+import Hero from "./components/hero/Hero";
 
 function App() {
+  const handleLearnMore = () => {
+    const element = document.getElementById("features");
+    element.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleApply = () => {
+    const element = document.getElementById("apply");
+    element.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero onApplyForAccess={handleApply} onLearnMore={handleLearnMore} />
+      <Features />
+      <ApplyInfo />
+      <Footer />
     </div>
   );
 }
