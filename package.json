@@ -2,7 +2,7 @@
   "name": "workit-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://username.github.io/workit-landing-page",
+  "homepage": "http://felipeavl.github.io/workit-landing-page",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
