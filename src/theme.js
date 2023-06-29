@@ -1,6 +1,6 @@
 const theme = {
   breakpoints: {
-    tablet: "820px",
+    tablet: "830px",
     mobile: "740px",
   },
   colors: {

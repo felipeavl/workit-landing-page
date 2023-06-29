@@ -125,7 +125,10 @@ export default function ApplyInfo() {
         </BodyText>
         <BodyText></BodyText>
         <ApplyInfoButton>Apply for access</ApplyInfoButton>
-        <BackgroundImage src="/assets/bg-pattern-3.svg" alt="Background" />
+        <BackgroundImage
+          src={process.env.PUBLIC_URL + "/assets/bg-pattern-3.svg"}
+          alt="Background"
+        />
       </ApplyInfoBox>
     </ApplyInfoWrapper>
   );
